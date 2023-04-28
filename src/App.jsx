@@ -1,11 +1,13 @@
 import './App.css'
-
+import NavBar from  './Components/NavBar/Navbar'
+import Header from './Components/Header/Header'
 function App() {
  
 
   return (
     <>
-      <h1 className='text-blue-900 text-3xl font-bold underline'>test passed</h1>
+     <NavBar/>
+     <Header/>
     </>
   )
 }
